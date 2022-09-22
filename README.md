@@ -23,3 +23,5 @@ To run your tests
 [Array-reverse](./challenges/array-reverse/README.md)
 
 [Array-insert-shift](./challenges/array-insert-shift/README.md)
+
+[Array-binary-search](./challenges/array-binary-search/README.md)
