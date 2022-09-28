@@ -25,3 +25,5 @@ To run your tests
 [Array-insert-shift](./challenges/array-insert-shift/README.md)
 
 [Array-binary-search](./challenges/array-binary-search/README.md)
+
+[Linked-list-kth](./challenges/linked-list-kth/README.md)
