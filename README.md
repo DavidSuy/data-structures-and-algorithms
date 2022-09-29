@@ -27,3 +27,5 @@ To run your tests
 [Array-binary-search](./challenges/array-binary-search/README.md)
 
 [Linked-list-kth](./challenges/linked-list-kth/README.md)
+
+[Linked-list-zip](./challenges/linked-list-zip/README.md)
