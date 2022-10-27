@@ -1,4 +1,4 @@
-// const Movies = require("./movies");
+const Movies = require("./movies");
 
 function sortYear(movies) {
   let sortedMovies = [...movies];
@@ -11,10 +11,21 @@ function sortYear(movies) {
 function sortTitle(movies) {
   let sortedMovies = [...movies];
   sortedMovies.sort((a, b) => {
-    if (a.title < b.title) {
+    let aTitle = a.title;
+    let bTitle = b.title;
+    if (aTitle.includes("The")) {
+      aTitle = aTitle.split(" ")[1];
+    }
+    if (bTitle.includes("The")) {
+      bTitle = bTitle.split(" ")[1];
+    }
+
+    // console.log(aTitle, bTitle);
+
+    if (aTitle < bTitle) {
       return -1;
     }
-    if (a.title > b.title) {
+    if (aTitle > bTitle) {
       return 1;
     }
     return 0;
@@ -27,11 +38,12 @@ function inGenre(movies, genre) {
     return m.genres.includes(genre);
   });
 
-  return filteredMovies.map((m) => m.title);
+  return filteredMovies;
+  // return filteredMovies.map((m) => m.title);
 }
 
 // console.log(sortYear(Movies));
-// console.log(sortTitle(Movies));
+console.log(sortTitle(Movies));
 // console.log(inGenre(Movies, "Adventure"));
 
 module.exports = {
