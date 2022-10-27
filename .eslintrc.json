@@ -45,7 +45,7 @@
     "no-undefined": "off",
     "quotes": [
       "warn",
-      "single",
+      // "single",
       {
         "allowTemplateLiterals": true
       }
