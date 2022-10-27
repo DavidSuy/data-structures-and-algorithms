@@ -25,11 +25,11 @@ describe("Sorters", () => {
       "City of God",
       "The Cotton Club",
       "Crocodile Dundee",
-      "The Intouchables",
       "Memento",
       "Ratatouille",
       "The Shawshank Redemption",
       "Stardust",
+      "The Untouchables",
       "Valkyrie",
     ]);
   });
