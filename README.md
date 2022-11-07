@@ -18,7 +18,7 @@ To run your tests
 - run `npm test` to run all of the tests
 - run `npm test ##` to only run tests for challenge ## (i.e. 01)
 
-### 401 Data Structures, Code Challenges
+### 401 Code Challenges
 
 [Array-reverse](./challenges/array-reverse/README.md)
 
@@ -31,3 +31,7 @@ To run your tests
 [Linked-list-kth](./challenges/linked-list-kth/README.md)
 
 [Linked-list-zip](./challenges/linked-list-zip/README.md)
+
+### Data Structures
+
+[Stack and Queue](./data-structures/stack-and-queue/README.md)
