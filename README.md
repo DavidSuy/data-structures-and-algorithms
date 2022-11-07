@@ -35,3 +35,5 @@ To run your tests
 ### Data Structures
 
 [Stack and Queue](./data-structures/stack-and-queue/README.md)
+
+[Binary Search Tree](./data-structures/trees/binary-search-tree/README.md)
