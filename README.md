@@ -32,6 +32,8 @@ To run your tests
 
 [Linked-list-zip](./challenges/linked-list-zip/README.md)
 
+[Graph-business-trip](./challenges/graph-business-trip/README.md)
+
 ### Data Structures
 
 [Stack and Queue](./data-structures/stack-and-queue/README.md)
