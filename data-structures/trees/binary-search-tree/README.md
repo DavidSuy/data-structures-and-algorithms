@@ -47,4 +47,25 @@
       - if there is, move to that node and repeat these steps
       - if there is not, we're done searching
 
+### Breadth First Search
+
+- create a queue and a variable to store the value of the nodes visited
+- place the root node in the queue
+- loop as long as there is anything in the queue
+  - dequeue a node from the queue and push the value of the node into the variable that stores the nodes
+  - if there is left property on the node dequeue, then add it to the queue
+  - if there is right property on the node dequeue, then add it to the queue
+- return the variable that stores the values
+
+### Depth first search
+
+- create a variable to store the values of the node visited
+- store the root of the BST in variable called current
+- write a helper function which accepts a node
+  - push that value of the node to the variable that stores the values
+  - if the node has a left property, call the helper function with the left property on the node
+  - if the node has a right property, call the helper function with the right property on the node
+- invoke the helper function with the current variable
+- return the array of values
+
 ![Binary search tree](binary-search-tree.png)
