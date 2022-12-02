@@ -74,6 +74,8 @@ Write a function named containsW that takes in a string. This function should us
 
 const containsW = (str) => {
   // Solution code here...
+  let validator = /w/g;
+  return validator.test(str);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -90,6 +92,8 @@ For example:
 
 const isNum = (input) => {
   // Solution code here...
+  let validator = /[0-9]/g;
+  return validator.test(input);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -115,6 +119,9 @@ Return an array containing all the matches.
 
 const isCapitalized = (str) => {
   // Solution code here...
+  let regex = /[A-Z]\w+/g;
+  if (str.match(regex)) return str.match(regex);
+  else return [];
 };
 
 /* ------------------------------------------------------------------------------------------------

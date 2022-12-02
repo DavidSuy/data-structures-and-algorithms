@@ -43,7 +43,7 @@ function inGenre(movies, genre) {
 }
 
 // console.log(sortYear(Movies));
-console.log(sortTitle(Movies));
+// console.log(sortTitle(Movies));
 // console.log(inGenre(Movies, "Adventure"));
 
 module.exports = {
