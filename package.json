@@ -4,7 +4,7 @@
   "description": "See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.",
   "main": "index.js",
   "scripts": {
-    "test": "jest sort-filter-movies.test.js",
+    "test": "jest singly-linked-list.test",
     "watch": "jest --watch"
   },
   "repository": {

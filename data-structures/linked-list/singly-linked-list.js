@@ -54,6 +54,7 @@ class SinglyLinkedList {
       this.head = newNode;
       this.tail = this.head;
     }
+    this.tail.next = null;
     newNode.next = this.head;
     this.head = newNode;
     this.length++;
@@ -113,6 +114,17 @@ class SinglyLinkedList {
     }
     return this;
   }
+  search(val) {
+    let current = this.head;
+    while (current != null) {
+      if (current.val === val) {
+        return true;
+      }
+      current = current.next;
+    }
+    return false;
+  }
+
   print() {
     let arr = [];
     let current = this.head;
@@ -120,13 +132,11 @@ class SinglyLinkedList {
       arr.push(current.val);
       current = current.next;
     }
-    console.log(arr);
+    return arr;
   }
 }
 
-let testLL = new SinglyLinkedList();
-testLL.push("a");
-testLL.push("b");
-testLL.push("c");
-console.log(testLL.pop());
-console.log(testLL);
+module.exports = {
+  Node,
+  SinglyLinkedList,
+};
