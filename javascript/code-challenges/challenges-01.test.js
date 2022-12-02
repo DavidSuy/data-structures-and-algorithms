@@ -115,7 +115,6 @@ const createList = (availableItems) => {
       finalList.push(el.name);
     }
   });
-  console.log(finalList);
   return finalList;
 };
 

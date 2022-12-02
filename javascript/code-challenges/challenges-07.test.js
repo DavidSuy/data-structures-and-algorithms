@@ -135,7 +135,6 @@ const listFoods = (recipe) => {
     let start = recipe.ingredients[i].indexOf(" ", 2) + 1;
     result.push(recipe.ingredients[i].slice(start));
   }
-  console.log(result);
   return result;
 };
 

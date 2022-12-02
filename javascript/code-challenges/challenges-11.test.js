@@ -171,7 +171,6 @@ Write a function named findShortest that, given the Star Wars data from Challeng
 let findShortest = (data) => {
   let shortChar = data.reduce((shortest, char) => {
     let temp = shortest;
-    console.log(temp);
     if (Number.parseInt(char.height) < Number.parseInt(temp.height))
       return char;
     else return temp;
