@@ -143,6 +143,19 @@
     - Set the node variable to be the value of the next variable
     - Once you have finished looping, return the list
 
+### search
+
+    Search for a node with a certain value
+
+    Psuedo Code:
+
+    - function takes in a val
+    - create a variable called current
+    - loop through linked list while current true
+      - if current's val is equal to val of argument return true
+      - set current to current next
+    - if reach the end of the loop and val in not found, return false
+
 ## Big O
 
     Insertion: O(1)
