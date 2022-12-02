@@ -52,11 +52,61 @@ describe("linked list", () => {
     expect(testLL.print()).toEqual(["c", "b", "a"]);
   });
 
-  it("Can push a node to the end of a linked list", () => {
+  it("Can successfully add a node to the end of the linked list", () => {
     let testLL = new SinglyLinkedList();
     testLL.push("a");
     testLL.push("b");
     testLL.push("c");
     expect(testLL.tail.val).toBe("c");
+  });
+
+  it("Can successfully add multiple nodes to the end of a linked list", () => {
+    let testLL = new SinglyLinkedList();
+    testLL.push("a");
+    testLL.push("b");
+    testLL.push("c");
+    expect(testLL.length).toBe(3);
+  });
+
+  it("Can successfully insert a node before a node located in the middle of a linked list", () => {
+    let testLL = new SinglyLinkedList();
+    testLL.push("a");
+    testLL.push("b");
+    testLL.push("c");
+    testLL.push("d");
+    let middleIdx = Math.floor(testLL.length / 2);
+    testLL.insertBefore(middleIdx, "x");
+    expect(testLL.print()).toEqual(["a", "b", "x", "c", "d"]);
+  });
+
+  it("Can successfully insert a node before the first node of a linked list", () => {
+    let testLL = new SinglyLinkedList();
+    testLL.push("a");
+    testLL.push("b");
+    testLL.push("c");
+    testLL.push("d");
+    testLL.unshift("x");
+    expect(testLL.print()).toEqual(["x", "a", "b", "c", "d"]);
+  });
+
+  it("Can successfully insert after a node in the middle of the linked list", () => {
+    let testLL = new SinglyLinkedList();
+    testLL.push("a");
+    testLL.push("b");
+    testLL.push("c");
+    testLL.push("d");
+    let middleIdx = Math.floor(testLL.length / 2);
+    testLL.insertAfter(middleIdx, "x");
+    expect(testLL.print()).toEqual(["a", "b", "c", "x", "d"]);
+  });
+
+  it("Can successfully insert a node after the last node of the linked list", () => {
+    let testLL = new SinglyLinkedList();
+    testLL.push("a");
+    testLL.push("b");
+    testLL.push("c");
+    testLL.push("d");
+    testLL.push("x");
+    expect(testLL.print()).toEqual(["a", "b", "c", "d", "x"]);
   });
 });
