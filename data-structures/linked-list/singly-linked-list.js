@@ -20,6 +20,8 @@ class SinglyLinkedList {
       this.tail.next = newNode;
       this.tail = newNode;
     }
+    this.length++;
+    return this;
   }
   pop() {
     if (!this.head) return undefined;
@@ -66,7 +68,7 @@ class SinglyLinkedList {
     let current = this.head;
     while (counter !== index) {
       current = current.next;
-      current++;
+      counter++;
     }
     return current;
   }
@@ -78,14 +80,28 @@ class SinglyLinkedList {
     }
     return false;
   }
-  insert(index, val) {
+  insertBefore(index, val) {
     if (index < 0 || index > this.length) return false;
     if (index === this.length) return !!this.push(val);
     if (index === 0) return !!this.unshift(val);
 
-    let newNode = new Node(val);
+    var newNode = new Node(val);
     var prev = this.get(index - 1);
-    let temp = prev.next;
+    var temp = prev.next;
+    prev.next = newNode;
+    newNode.next = temp;
+    this.length++;
+    return true;
+  }
+  insertAfter(index, val) {
+    if (index < 0 || index > this.length) return false;
+    if (index === this.length) return !!this.push(val);
+    if (index === 0) return !!this.unshift(val);
+
+    var newNode = new Node(val);
+    var prev = this.get(index);
+    var temp = prev.next;
+    prev.next = newNode;
     newNode.next = temp;
     this.length++;
     return true;
