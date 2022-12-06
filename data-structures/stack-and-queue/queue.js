@@ -47,17 +47,7 @@ class Queue {
   }
 }
 
-let testQueue = new Queue();
-
-testQueue.enqueue(1);
-testQueue.enqueue(2);
-testQueue.enqueue(3);
-testQueue.enqueue(4);
-console.log(testQueue.dequeue());
-console.log(testQueue.dequeue());
-console.log(testQueue.isEmpty());
-console.log(testQueue.dequeue());
-console.log(testQueue.peek());
-console.log(testQueue.dequeue());
-console.log(testQueue.isEmpty());
-console.log(testQueue);
+module.exports = {
+  Node,
+  Queue,
+};

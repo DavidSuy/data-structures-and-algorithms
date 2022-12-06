@@ -48,23 +48,7 @@ class Stack {
   }
 }
 
-let x = new Stack();
-x.push("hello");
-x.push("world");
-x.push("My");
-console.log(x.peek());
-x.push("name");
-x.push("is");
-console.log(x.isEmpty());
-x.push("David");
-console.log(x.pop());
-console.log(x.pop());
-console.log(x.peek());
-console.log(x.pop());
-console.log(x.pop());
-console.log(x.pop());
-console.log(x.pop());
-console.log(x.peek());
-console.log(x.isEmpty());
-
-console.log(x);
+module.exports = {
+  Node,
+  Stack,
+};
