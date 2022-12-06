@@ -19,10 +19,10 @@ Using a Linked List as the underlying data storage mechanism, implement both a S
 
 ### Stack Big O
 
-insertion - O(1)
-Removal - O(1)
-Searching - O(N)
-Access - O(N)
+    insertion - O(1)
+    Removal - O(1)
+    Searching - O(N)
+    Access - O(N)
 
 ![stack](stack.png)
 
@@ -65,13 +65,10 @@ Access - O(N)
 
 ### Queue Big O
 
-insertion - O(1)
-
-removal - O(1)
-
-searching - O(n)
-
-access - O(n)
+    insertion - O(1)
+    removal - O(1)
+    searching - O(n)
+    access - O(n)
 
 ![queue](queue.png)
 

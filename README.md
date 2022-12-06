@@ -8,11 +8,13 @@
 
 [Array-binary-search](./challenges/array-binary-search/README.md)
 
-[Singly-linked-list](./challenges/singly-linked-list/README.md)
+<!-- [Singly-linked-list](./challenges/singly-linked-list/README.md) -->
 
 [Linked-list-kth](./challenges/linked-list-kth/README.md)
 
 [Linked-list-zip](./challenges/linked-list-zip/README.md)
+
+[stack-queue-pseudo](./challenges/stack-queue-pseudo/README.md)
 
 [Graph-business-trip](./challenges/graph-business-trip/README.md)
 
