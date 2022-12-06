@@ -2,8 +2,14 @@
 
 ## Stack
 
+### Summary
+
     LIFO (last in first out)
-    A data structure that add to the stack and will be the first element removed from the stack.
+    The last element added to teh stack will be the first element removed from the stack
+
+### Description
+
+Using a Linked List as the underlying data storage mechanism, implement both a Stack and a Queue
 
 ### Use cases
 
@@ -41,6 +47,10 @@ Access - O(N)
 - decrement the size by 1
 - return the value of the node removed
 
+[Stack Code Link](stack.js)
+
+---
+
 ## Queue
 
     FIFO (first in first out)
@@ -56,8 +66,11 @@ Access - O(N)
 ### Queue Big O
 
 insertion - O(1)
+
 removal - O(1)
+
 searching - O(n)
+
 access - O(n)
 
 ![queue](queue.png)
@@ -78,3 +91,5 @@ access - O(n)
 - see if the first is the same as the last (check if there is only 1 node). If so, set the first and last to be null
 - decrement the size by 1
 - return the value of the node dequeued
+
+[Queue Code link](queue.js)
