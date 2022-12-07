@@ -20,6 +20,8 @@
 
 [stack-queue-brackets](./challenges/stack-queue-brackets/README.md)
 
+[Tree-max](./challenges/tree-max/README.md)
+
 [Graph-business-trip](./challenges/graph-business-trip/README.md)
 
 ### Data Structures

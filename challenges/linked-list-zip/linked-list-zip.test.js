@@ -29,7 +29,6 @@ describe("linked list kth", () => {
     ll2.push(9);
     ll2.push(4);
     let newLL = zipLists(ll1, ll2);
-    console.log(newLL.print());
     expect(newLL.print()).toEqual([1, 5, 3, 9]);
   });
 
@@ -43,7 +42,6 @@ describe("linked list kth", () => {
     ll2.push(5);
     ll2.push(9);
     let newLL = zipLists(ll1, ll2);
-    console.log(newLL.print());
     expect(newLL.print()).toEqual([1, 5, 3, 9, 2]);
   });
 });
