@@ -28,7 +28,7 @@
 
 [Stack and Queue](./data-structures/stack-and-queue/README.md)
 
-[Binary Search Tree](./data-structures/trees/binary-search-tree/README.md)
+[Tree](./data-structures/trees/README.md)
 
 [Graph](./data-structures/graph/README.md)
 

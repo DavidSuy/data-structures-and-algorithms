@@ -162,3 +162,15 @@
     Removal: O(1) or O(N)
     Searching: O(N)
     Access: O(N)
+
+## Solution
+
+[Code link](./singly-linked-list.js)
+
+install packages:
+
+    npm i
+
+run test:
+
+    npm test singly-linked-list
