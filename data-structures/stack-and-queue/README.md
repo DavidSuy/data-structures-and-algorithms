@@ -90,3 +90,11 @@ Using a Linked List as the underlying data storage mechanism, implement both a S
 - return the value of the node dequeued
 
 [Queue Code link](queue.js)
+
+install packages:
+
+    npm i
+
+run test:
+
+    npm test queue
