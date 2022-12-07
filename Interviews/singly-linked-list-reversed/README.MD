@@ -38,4 +38,4 @@ Space: O(1)
 
 ## Grading Rubric
 
-[Interview 01](https://docs.google.com/spreadsheets/d/1tdq-UhPuUevquj5We1OWgN93vlPhVG2JNLa1kfTtZ-0/edit#gid=297240503)
+[Rubric link](https://docs.google.com/spreadsheets/d/1tdq-UhPuUevquj5We1OWgN93vlPhVG2JNLa1kfTtZ-0/edit#gid=297240503)
