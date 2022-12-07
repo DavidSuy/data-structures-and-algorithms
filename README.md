@@ -35,3 +35,5 @@
 ### Technical Interview
 
 [Singly linked list reversed](./Interviews/singly-linked-list-reversed/README.MD)
+
+[Max Stack](./Interviews/max-stack/README.md)
