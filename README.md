@@ -18,6 +18,8 @@
 
 [stack-queue-animal-shelter](./challenges/stack-queue-animal-shelter/README.md)
 
+[stack-queue-brackets](./challenges/stack-queue-brackets/README.md)
+
 [Graph-business-trip](./challenges/graph-business-trip/README.md)
 
 ### Data Structures
