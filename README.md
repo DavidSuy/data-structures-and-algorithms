@@ -28,6 +28,8 @@
 
 [Tree-intersection](./challenges/tree-intersection/README.md)
 
+[Hashmap-left-join](./challenges/hashmap-left-join/README.md)
+
 [Graph-business-trip](./challenges/graph-business-trip/README.md)
 
 ### Data Structures
