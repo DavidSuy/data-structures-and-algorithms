@@ -22,6 +22,8 @@
 
 [Tree-max](./challenges/tree-max/README.md)
 
+[Tree-fizz-buzz](./challenges/tree-fizz-buzz/README.md)
+
 [Graph-business-trip](./challenges/graph-business-trip/README.md)
 
 ### Data Structures
