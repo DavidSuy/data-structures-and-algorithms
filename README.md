@@ -26,6 +26,8 @@
 
 [Hashmap-repeated-word](./challenges/hashmap-repeated-word/README.md)
 
+[Tree-intersection](./challenges/tree-intersection/README.md)
+
 [Graph-business-trip](./challenges/graph-business-trip/README.md)
 
 ### Data Structures
