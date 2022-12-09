@@ -34,6 +34,8 @@
 
 [Tree](./data-structures/trees/README.md)
 
+[Hashtable](./data-structures/hashtable/README.md)
+
 [Graph](./data-structures/graph/README.md)
 
 ### Technical Interview
