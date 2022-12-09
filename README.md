@@ -24,6 +24,8 @@
 
 [Tree-fizz-buzz](./challenges/tree-fizz-buzz/README.md)
 
+[Hashmap-repeated-word](./challenges/hashmap-repeated-word/README.md)
+
 [Graph-business-trip](./challenges/graph-business-trip/README.md)
 
 ### Data Structures
