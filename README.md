@@ -30,6 +30,8 @@
 
 [Hashmap-left-join](./challenges/hashmap-left-join/README.md)
 
+[graph-depth-first](./challenges/graph-depth-first/README.md)
+
 [Graph-business-trip](./challenges/graph-business-trip/README.md)
 
 ### Data Structures
