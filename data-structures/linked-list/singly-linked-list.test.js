@@ -1,4 +1,5 @@
 const { Node, SinglyLinkedList } = require("./singly-linked-list");
+
 describe("linked list", () => {
   it("Can successfully instantiate an empty linked list", () => {
     expect(new SinglyLinkedList()).toEqual({
