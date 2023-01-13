@@ -51,3 +51,7 @@
 [Singly linked list reversed](./Interviews/singly-linked-list-reversed/README.MD)
 
 [Max Stack](./Interviews/max-stack/README.md)
+
+### HackerRank
+
+[Plus Minus](./hakerRank/plus-minus/README.md)
