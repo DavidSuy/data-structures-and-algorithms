@@ -55,3 +55,5 @@
 ### HackerRank
 
 [Plus Minus](./hakerRank/plus-minus/README.md)
+
+[Mini Max Sum](./hakerRank/mini-max-sum/README.md)
