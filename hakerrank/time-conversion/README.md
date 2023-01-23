@@ -48,3 +48,15 @@ A single string `s` that represents a time in 12-hour clock format (i.e.:hh:mm:s
 ```md
 19:05:45
 ```
+
+## Solution
+
+[Code link](./time-conversion.js)
+
+install packages:
+
+`npm i`
+
+run test:
+
+`npm test time-conversion`
