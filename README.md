@@ -59,3 +59,5 @@
 [Mini Max Sum](./hakerRank/mini-max-sum/README.md)
 
 [Time conversion](./hakerRank/time-conversion/README.md)
+
+[Lonely integer](./hakerrank/lonely-integer/README.md)
