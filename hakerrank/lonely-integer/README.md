@@ -31,3 +31,21 @@ The second line contains space-separated integers that describe the values in `a
 - It is guaranteed that is an odd number and that there is one unique element.
 
 - 0 <= a[i] <=100, where 0 <= i < n
+
+## Big O
+
+Time Complexity: O(n<sup>2</sup>)
+
+Space Complexity: O(n)
+
+## Solution
+
+[Code link](./lonely-integer.js)
+
+install packages:
+
+`npm i`
+
+run test:
+
+`npm test lonely-integer`
