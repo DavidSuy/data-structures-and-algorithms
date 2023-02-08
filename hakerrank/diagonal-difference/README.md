@@ -57,20 +57,19 @@ Return the absolute difference between the sums of the matrix's two diagonals as
 
 The primary diagonal is:
 
-```md
+```na
 11
-5
--12
+  5
+    -12
 ```
 
 Sum across the primary diagonal: 11 + 5 - 12 = 4
 
 The secondary diagonal is:
 
-```md
+```na
      4
-
-5
+  5
 10
 ```
 
@@ -79,6 +78,16 @@ Sum across the secondary diagonal: 4 + 5 + 10 = 19
 Difference: |4 - 19| = 15
 
 Note: |x| is the absolute value of x
+
+## Whiteboard
+
+![diagonal-difference](diagonal-difference.png)
+
+## BigO
+
+Time complexity: O(n)
+
+Space complexity: O(1)
 
 ## Solution
 
