@@ -61,3 +61,5 @@
 [Time conversion](./hakerRank/time-conversion/README.md)
 
 [Lonely integer](./hakerrank/lonely-integer/README.md)
+
+[Diagonal Difference](./hakerrank/diagonal-difference/README.md)
