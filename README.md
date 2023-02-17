@@ -63,3 +63,5 @@
 [Lonely integer](./hakerrank/lonely-integer/README.md)
 
 [Diagonal Difference](./hakerrank/diagonal-difference/README.md)
+
+[Counting Sorting One](./hakerrank/counting-sorting-one/README.md)
