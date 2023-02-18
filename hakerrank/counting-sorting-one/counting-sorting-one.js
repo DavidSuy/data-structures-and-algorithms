@@ -1,7 +1,23 @@
-module.exports = function countingSort(arr) {
-  // loop trough possible range
-  // make an array for each possible integer called posArr
+function countingSort(arr, max = 100) {
+  // possible integer arr
+  arr;
+  let possArr = [];
+  let min = 0;
+
+  // loop trough possible range and push to possArr
+  for (let i = min; i < max; i++) {
+    possArr.push(0);
+  }
+
   // loop through arr
-  // for each int increment that value in posArr
+
+  arr.forEach((el) => {
+    // for each int increment that value in posArr
+    possArr[el] += 1;
+  });
+
   // return possArr
-};
+  return possArr;
+}
+
+module.exports = countingSort;
