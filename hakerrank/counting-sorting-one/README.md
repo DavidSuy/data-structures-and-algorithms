@@ -69,3 +69,15 @@ Each of the next n lines contains an integer arr[i] where 0 <= i < n .
 ## Explanation
 
 Each of the resulting values result[i] represents the number of times i appeared in arr .
+
+## Solution
+
+[Code link](./counting-sorting-one.js)
+
+install packages:
+
+`npm i`
+
+run test:
+
+`npm test counting-sorting-one`
