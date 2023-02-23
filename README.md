@@ -65,3 +65,5 @@
 [Diagonal Difference](./hakerrank/diagonal-difference/README.md)
 
 [Counting Sorting One](./hakerrank/counting-sorting-one/README.md)
+
+[Zig zag sequence](./hakerrank/zig-zag-sequence/README.md)
